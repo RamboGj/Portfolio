@@ -8,7 +8,6 @@ import {
   PresentationControls,
   useGLTF,
 } from '@react-three/drei'
-import { useControls } from 'leva'
 
 export function Scene() {
   const macbook = useGLTF('./macbook.gltf')
